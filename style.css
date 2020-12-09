@@ -1,0 +1,47 @@
+@keyframes christmasLights {
+  0% {text-shadow: 2px 2px 3px red;}
+  0% {border: 2px solid red;}
+  50% {text-shadow: 2px 2px 3px green;}
+  50% {border: 2px solid green;}
+  100% {text-shadow: 2px 2px 3px red;}
+  100% {border: 2px solid red;}
+}
+
+/*text-shadow: 2px 2px 5px red;*/
+
+.bigBoy {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: url("wallpaper2.jpg");
+}
+
+div.format {
+  display: block;
+  height: 45%;
+}
+
+div.hint {
+  background-color: #111c02;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 33%;
+  text-shadow: 2px 2px 5px red;
+  border: 2px solid red;
+  border-radius: 3px;
+  animation-name: christmasLights;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.centerText {
+  top: 50%;
+  width: 100%;
+  height
+  text-align: center;
+}
